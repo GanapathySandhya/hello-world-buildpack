@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ROOT_DIR=$(dirname $BIN_DIR)
+PHP=`which php`
+
+$PHP $ROOT_DIR/opt/hello_world.php
